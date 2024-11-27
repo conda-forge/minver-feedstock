@@ -1,5 +1,5 @@
 {% set name = "minver" %}
-{% set version = "5.0.0" %}
+{% set version = "6.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/adamralph/minver/archive/{{ version }}.tar.gz
-  sha256: b845fa916997a1d52b589fa5c2efa2569a76c0f7bfd6953fe2217bba7aaf2c4e
+  sha256: 1813ec9d8248d40403791c14fde0168eceff3754cada811afffd66ad7c3659c3
 
 build:
   noarch: generic
