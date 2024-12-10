@@ -24,3 +24,5 @@ call %DOTNET_ROOT%\dotnet exec %CONDA_PREFIX%\libexec\minver\minver-cli.dll %*
 EOF
 
 dotnet-project-licenses --input minver-cli/minver-cli.csproj -t -d license-files
+
+rm ${PREFIX}/bin/dotnet
