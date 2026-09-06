@@ -1,5 +1,5 @@
 context:
-  version: "7.0.0"
+  version: "8.0.0"
 
 package:
   name: minver
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/adamralph/minver/archive/${{ version }}.tar.gz
-  sha256: 960166a500ea8967196d763691daa6dcc97b6115feb59008e2bc760a0c3caadf
+  sha256: bfefbd89589357dd074abc5d3bb3914594fef724f572ab6ce0ecfe154a4bf370
 
 build:
   number: 0
